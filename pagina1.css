@@ -1,0 +1,238 @@
+body {
+  background-color: black;
+}
+
+#interfaz {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+#texto {
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 2%;
+  width: 35%;
+  border: 1px dashed red;
+}
+
+h2 {
+  display: flex;
+  overflow: hidden;
+  text-align: end;
+  align-items: stretch;
+  position: relative;
+  color: white;
+  text-align: right;
+  font-family: "Special Elite", system-ui;
+  margin-right: 1%;
+}
+
+h3 {
+  display: flex;
+  overflow: hidden;
+  text-align: end;
+  align-items: stretch;
+  position: relative;
+  color: white;
+  text-align: right;
+  margin-right: 2%;
+  font-family: "Special Elite", system-ui;
+  margin-left: 1%;
+}
+
+h4 {
+  box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  text-align: end;
+  align-items: stretch;
+  position: relative;
+  color: yellow;
+  text-align: right;
+  margin-right: 2%;
+  font-family: "Special Elite", system-ui;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* aca puntos */
+.interaccion1 {
+  overflow: hidden;
+  color: black;
+  padding: 2%;
+  margin-right: 1%;
+  border: 1px dashed red;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#interaccionDiv {
+  margin-right: 1%;
+}
+
+#biografia {
+  color: white;
+  margin-right: 1%;
+  border: 1px dashed red;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+  text-align: left;
+  margin-top: 10%;
+  line-height: 2em;
+
+}
+
+@keyframes blink {
+  0% {
+    border: 1px dashed #ffbf00;
+  }
+  50% {
+    border: 1px dashed #000000;
+  }
+  100% {
+    border: 1px dashed #ffbf00;
+  }
+}
+
+#contenedor {
+  display: flex;
+  border-style: solid;
+  border-color: red;
+  width: 85vw;
+  height: 45vw;
+  position: relative;
+  background-color: #af54ff;
+  margin-left: 2%;
+  margin-right: 2%;
+  bottom: 30%;
+  background-image: url("https://raw.githubusercontent.com/cCalic04/trabajo-final/refs/heads/main/Estacion-Interna-Biblioteca-Tintal-Transmilenio-Tw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* quizá toca corregir el width de los personajes, porque  */
+
+#Juan {
+  width: 20%;
+  top: 20%;
+  position: absolute;
+  left: 5%;
+}
+
+#Juan:hover {
+  width: 22%;
+  cursor: pointer;
+  transform: rotate(-5deg);
+}
+
+#interaccion1J {
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  width: 7vw;
+  font-size: 0.9em;
+}
+
+#DonSilverio {
+  width: 20%;
+  right: 35%;
+  top: 20%;
+  position: absolute;
+}
+
+#DonSilverio:hover {
+  width: 22%;
+  cursor: pointer;
+  transform: rotate(5deg);
+}
+
+#interaccion1S {
+  position: absolute;
+  top: 15%;
+  right: 29%;
+  width: 5vw;
+  font-size: 0.9em;
+}
+
+#Lucia {
+  width: 25%;
+  top: 30%;
+  right: 3%;
+  position: absolute;
+}
+
+#Lucia:hover {
+  width: 22%;
+  cursor: pointer;
+  transform: rotate(3deg);
+}
+
+#interaccion1L {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  width: 6vw;
+  font-size: 0.9em;
+}
+
+#Claudia {
+  width: 20%;
+  top: 40%;
+  left: 30%;
+  position: absolute;
+}
+
+#Claudia:hover {
+  width: 22%;
+  cursor: pointer;
+  transform: rotate(-3deg);
+}
+
+#interaccion1C {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 7vw;
+  font-size: 0.9em;
+}
+
+#Hector {
+  width: 16%;
+  top: 10%;
+  left: 25%;
+  position: absolute;
+}
+
+#Hector:hover {
+  width: 18%;
+  cursor: pointer;
+  transform: rotate(3deg);
+}
+
+#interaccion1H {
+  position: absolute;
+  top: 8%;
+  left: 35%;
+  width: 7vw;
+  font-size: 0.9em;
+}
+
+#zonaclickeable1 {
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
+#zonaclickeable2 {
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}

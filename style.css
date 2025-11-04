@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  /*font-family: "Roboto", serif;*/
+  font-size: 100px; /*/ tamaño de la letra*/
+  margin-top: 20%;
+  font-family: "Special Elite", system-ui;
+  color: yellow;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inicio {
+  color: #ff7700;
+}
+
+h3 {
+  /*font-family: "Roboto", serif;*/
+  font-size: 45px; /*/ tamaño de la letra*/
+  font-family: "Special Elite", system-ui;
+  color: #f7191C;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 800px) {
+  .contenedor-img {
+    /*border-style: solid;*/
+    border-width: 2px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .contenedor-img {
+    /*border-style: solid;*/
+    border-width: 2px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .contenedor-img {
+    /*border-style: solid;*/
+    border-width: 2px;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.opcion {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 5px;
+}
